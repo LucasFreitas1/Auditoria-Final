@@ -1,0 +1,115 @@
+.App {
+  height: 100vh;
+}
+
+body {
+  height:100%;
+  padding: 0;
+  overflow: hidden;
+}
+.Sidebar{
+  background-color: #353847;
+  justify-content:left;
+  
+}
+.Sidebar.active{
+  width: 100%;
+  height: 100%;
+  background-color: #353847;
+}
+
+
+.SidebarList .row{
+width: 100%;
+height: 60px;
+list-style-type: none;  
+margin: 0%;
+display: flex;
+flex-direction: row;
+color: white;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.SidebarList .row:hover{
+  cursor: pointer;
+  background-color: #2a2c38;
+ }
+ 
+.SidebarList #active {
+  background-color: #2a2c38;
+}
+.row #icon{
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title{
+  flex: 80%;
+}
+
+.navbar{
+  background-color: #dddddd;
+ 
+}
+.navbar #texto{
+  color: white;
+  
+}
+
+.navbar #icon{
+  color: white;
+  align-items: left;
+  justify-content: left;
+}
+
+.home, .apontamentos, .cadastro, .configuracoes, .followup, .logout, .arquivo{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /*font-size: 3rem;*/
+  padding: 3%;
+}
+
+
+.altura {
+  height: 100vh;
+  padding: 0;
+}
+
+.selectForm{
+  text-align: left;
+  justify-content: center;
+  padding: 5px;
+}
+.botaoExibir{
+  justify-content: center;
+  width: 20%;
+}
+.border{
+  background-color: #f3ebff;
+  display: inline-block;
+}
+
+.tabela{
+  height: 400px;
+  overflow:auto;
+}
+
+.login{
+  justify-content: top;
+  text-align: center;
+  align-items: top;
+  padding-top: 8%;
+  display: flex;
+  background-color: #353847;
+  height: 100vh;
+  color: #f3ebff;
+}
+
+.buttonLogin{
+  width: 100%;
+  }
